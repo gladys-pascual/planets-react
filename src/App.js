@@ -1,8 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import PlanetsList from './components/PlanetsList';
-import planets from './data'
+import React from "react";
+import "./App.css";
+import PlanetsList from "./components/PlanetsList";
+import planets from "./data";
 
 const App = () => {
   return (
@@ -11,6 +10,6 @@ const App = () => {
       <PlanetsList planet={planets} />
     </>
   );
-}
+};
 
 export default App;
